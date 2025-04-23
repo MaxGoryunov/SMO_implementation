@@ -1,0 +1,181 @@
+Dataset,Kernel,Dataset size,C,Sigma,Degree,Support_Vectors,Boundary_Vectors,Test accuracy,Iterations
+Model linear,linear,100,0.01,,,55,52,0.73,10
+Model linear,linear,100,0.1,,,33,30,1.0,13
+Model linear,linear,100,1.0,,,10,10,1.0,18
+Model linear,linear,100,5.0,,,4,1,1.0,51
+Model linear,linear,100,10.0,,,3,0,1.0,38
+Model linear,linear,100,100.0,,,3,0,1.0,38
+Model linear,rbf,100,0.01,2.2,,57,51,0.73,8
+Model linear,rbf,100,0.1,2.2,,51,47,0.98,14
+Model linear,rbf,100,1.0,2.2,,17,9,1.0,21
+Model linear,rbf,100,5.0,2.2,,9,0,1.0,42
+Model linear,rbf,100,10.0,2.2,,9,0,1.0,30
+Model linear,rbf,100,100.0,2.2,,9,0,1.0,30
+Model linear,poly,100,0.01,,3.0,40,37,0.86,22
+Model linear,poly,100,0.1,,3.0,22,19,0.97,96
+Model linear,poly,100,1.0,,3.0,12,4,1.0,100
+Model linear,poly,100,5.0,,3.0,6,0,1.0,100
+Model linear,poly,100,10.0,,3.0,6,0,1.0,100
+Model linear,poly,100,100.0,,3.0,6,0,1.0,100
+Model linear,poly,100,0.01,,4.0,48,42,0.79,11
+Model linear,poly,100,0.1,,4.0,43,36,0.8,100
+Model linear,poly,100,1.0,,4.0,38,30,0.81,100
+Model linear,poly,100,5.0,,4.0,37,30,0.84,100
+Model linear,poly,100,10.0,,4.0,35,22,0.8,100
+Model linear,poly,100,100.0,,4.0,47,7,0.6,100
+Model linear,poly,100,0.01,,5.0,31,21,0.93,100
+Model linear,poly,100,0.1,,5.0,18,9,0.98,100
+Model linear,poly,100,1.0,,5.0,11,3,0.99,100
+Model linear,poly,100,5.0,,5.0,8,0,0.98,100
+Model linear,poly,100,10.0,,5.0,8,0,0.98,100
+Model linear,poly,100,100.0,,5.0,8,0,0.98,100
+Model nonlinear,linear,100,0.01,,,100,100,0.73,12
+Model nonlinear,linear,100,0.1,,,100,98,0.73,13
+Model nonlinear,linear,100,1.0,,,95,92,0.71,75
+Model nonlinear,linear,100,5.0,,,95,92,0.72,179
+Model nonlinear,linear,100,10.0,,,95,92,0.72,302
+Model nonlinear,linear,100,100.0,,,95,92,0.72,1703
+Model nonlinear,rbf,100,0.01,2.2,,100,100,1.0,23
+Model nonlinear,rbf,100,0.1,2.2,,65,57,1.0,23
+Model nonlinear,rbf,100,1.0,2.2,,16,8,1.0,12
+Model nonlinear,rbf,100,5.0,2.2,,7,0,1.0,22
+Model nonlinear,rbf,100,10.0,2.2,,7,0,1.0,22
+Model nonlinear,rbf,100,100.0,2.2,,7,0,1.0,22
+Model nonlinear,poly,100,0.01,,3.0,100,98,0.56,26
+Model nonlinear,poly,100,0.1,,3.0,99,95,0.65,38
+Model nonlinear,poly,100,1.0,,3.0,96,80,0.6,100
+Model nonlinear,poly,100,5.0,,3.0,75,30,0.66,100
+Model nonlinear,poly,100,10.0,,3.0,78,26,0.73,100
+Model nonlinear,poly,100,100.0,,3.0,21,0,0.4,100
+Model nonlinear,poly,100,0.01,,4.0,26,22,0.99,18
+Model nonlinear,poly,100,0.1,,4.0,8,4,1.0,15
+Model nonlinear,poly,100,1.0,,4.0,5,0,1.0,11
+Model nonlinear,poly,100,5.0,,4.0,5,0,1.0,11
+Model nonlinear,poly,100,10.0,,4.0,5,0,1.0,11
+Model nonlinear,poly,100,100.0,,4.0,5,0,1.0,11
+Model nonlinear,poly,100,0.01,,5.0,55,42,0.46,100
+Model nonlinear,poly,100,0.1,,5.0,90,63,0.34,100
+Model nonlinear,poly,100,1.0,,5.0,75,16,0.41,100
+Model nonlinear,poly,100,5.0,,5.0,20,1,0.43,100
+Model nonlinear,poly,100,10.0,,5.0,20,0,0.39,100
+Model nonlinear,poly,100,100.0,,5.0,20,0,0.39,100
+Spirals,linear,200,0.01,,,200,200,0.53,35
+Spirals,linear,200,0.1,,,186,184,0.515,32
+Spirals,linear,200,1.0,,,183,180,0.525,204
+Spirals,linear,200,5.0,,,183,180,0.525,453
+Spirals,linear,200,10.0,,,183,180,0.525,1065
+Spirals,linear,200,100.0,,,183,180,0.525,5444
+Spirals,rbf,200,0.01,2.2,,200,200,0.565,18
+Spirals,rbf,200,0.1,2.2,,200,200,0.565,45
+Spirals,rbf,200,1.0,2.2,,190,174,0.605,81
+Spirals,rbf,200,5.0,2.2,,180,163,0.68,162
+Spirals,rbf,200,10.0,2.2,,175,152,0.675,443
+Spirals,rbf,200,100.0,2.2,,142,111,0.845,3833
+Spirals,poly,200,0.01,,3.0,153,149,0.59,100
+Spirals,poly,200,0.1,,3.0,121,113,0.54,100
+Spirals,poly,200,1.0,,3.0,12,6,0.535,100
+Spirals,poly,200,5.0,,3.0,15,8,0.54,100
+Spirals,poly,200,10.0,,3.0,27,12,0.545,100
+Spirals,poly,200,100.0,,3.0,57,9,0.54,100
+Spirals,poly,200,0.01,,4.0,200,196,0.515,75
+Spirals,poly,200,0.1,,4.0,36,17,0.5,100
+Spirals,poly,200,1.0,,4.0,21,14,0.5,100
+Spirals,poly,200,5.0,,4.0,8,3,0.495,100
+Spirals,poly,200,10.0,,4.0,45,11,0.495,100
+Spirals,poly,200,100.0,,4.0,17,4,0.485,100
+Spirals,poly,200,0.01,,5.0,169,163,0.59,100
+Spirals,poly,200,0.1,,5.0,48,26,0.545,100
+Spirals,poly,200,1.0,,5.0,23,13,0.545,100
+Spirals,poly,200,5.0,,5.0,43,10,0.485,100
+Spirals,poly,200,10.0,,5.0,20,6,0.515,100
+Spirals,poly,200,100.0,,5.0,58,2,0.58,100
+Iris,linear,100,0.01,,,82,80,0.99,31
+Iris,linear,100,0.1,,,31,27,0.99,15
+Iris,linear,100,1.0,,,10,8,0.99,14
+Iris,linear,100,5.0,,,4,2,1.0,17
+Iris,linear,100,10.0,,,4,1,1.0,83
+Iris,linear,100,100.0,,,3,0,1.0,83
+Iris,rbf,100,0.01,2.2,,100,100,0.99,27
+Iris,rbf,100,0.1,2.2,,61,55,0.99,14
+Iris,rbf,100,1.0,2.2,,21,8,0.99,13
+Iris,rbf,100,5.0,2.2,,12,2,1.0,15
+Iris,rbf,100,10.0,2.2,,11,0,1.0,17
+Iris,rbf,100,100.0,2.2,,11,0,1.0,17
+Iris,poly,100,0.01,,3.0,66,64,0.97,27
+Iris,poly,100,0.1,,3.0,36,32,1.0,45
+Iris,poly,100,1.0,,3.0,18,14,1.0,22
+Iris,poly,100,5.0,,3.0,8,8,1.0,10
+Iris,poly,100,10.0,,3.0,8,5,1.0,10
+Iris,poly,100,100.0,,3.0,4,0,1.0,11
+Iris,poly,100,0.01,,4.0,91,85,0.6,90
+Iris,poly,100,0.1,,4.0,87,81,0.6,100
+Iris,poly,100,1.0,,4.0,16,10,0.51,100
+Iris,poly,100,5.0,,4.0,19,6,0.48,100
+Iris,poly,100,10.0,,4.0,18,5,0.53,100
+Iris,poly,100,100.0,,4.0,18,0,0.47,100
+Iris,poly,100,0.01,,5.0,58,55,0.93,64
+Iris,poly,100,0.1,,5.0,39,35,0.96,16
+Iris,poly,100,1.0,,5.0,24,21,0.98,13
+Iris,poly,100,5.0,,5.0,14,12,0.98,10
+Iris,poly,100,10.0,,5.0,13,10,0.98,10
+Iris,poly,100,100.0,,5.0,7,2,1.0,10
+Circles,linear,100,0.01,,,100,100,0.51,12
+Circles,linear,100,0.1,,,100,100,0.51,13
+Circles,linear,100,1.0,,,100,100,0.51,11
+Circles,linear,100,5.0,,,100,98,0.51,37
+Circles,linear,100,10.0,,,100,98,0.5,42
+Circles,linear,100,100.0,,,100,97,0.52,641
+Circles,rbf,100,0.01,2.2,,100,100,0.99,9
+Circles,rbf,100,0.1,2.2,,100,100,0.99,13
+Circles,rbf,100,1.0,2.2,,91,83,0.99,34
+Circles,rbf,100,5.0,2.2,,42,31,1.0,78
+Circles,rbf,100,10.0,2.2,,32,18,1.0,151
+Circles,rbf,100,100.0,2.2,,16,2,1.0,259
+Circles,poly,100,0.01,,3.0,100,100,0.53,11
+Circles,poly,100,0.1,,3.0,100,100,0.53,12
+Circles,poly,100,1.0,,3.0,100,96,0.52,51
+Circles,poly,100,5.0,,3.0,100,95,0.6,100
+Circles,poly,100,10.0,,3.0,99,94,0.44,100
+Circles,poly,100,100.0,,3.0,87,5,0.39,100
+Circles,poly,100,0.01,,4.0,81,75,1.0,16
+Circles,poly,100,0.1,,4.0,23,17,1.0,82
+Circles,poly,100,1.0,,4.0,9,3,1.0,33
+Circles,poly,100,5.0,,4.0,6,0,1.0,29
+Circles,poly,100,10.0,,4.0,6,0,1.0,29
+Circles,poly,100,100.0,,4.0,6,0,1.0,29
+Circles,poly,100,0.01,,5.0,100,100,0.67,13
+Circles,poly,100,0.1,,5.0,100,97,0.69,28
+Circles,poly,100,1.0,,5.0,88,78,0.7,100
+Circles,poly,100,5.0,,5.0,93,56,0.68,100
+Circles,poly,100,10.0,,5.0,92,18,0.39,100
+Circles,poly,100,100.0,,5.0,92,0,0.33,100
+Moons,linear,200,0.01,,,128,126,0.855,12
+Moons,linear,200,0.1,,,75,72,0.865,10
+Moons,linear,200,1.0,,,62,59,0.87,20
+Moons,linear,200,5.0,,,61,58,0.865,212
+Moons,linear,200,10.0,,,61,58,0.865,132
+Moons,linear,200,100.0,,,61,58,0.865,5929
+Moons,rbf,200,0.01,2.2,,200,200,0.88,9
+Moons,rbf,200,0.1,2.2,,107,99,0.91,19
+Moons,rbf,200,1.0,2.2,,45,36,0.99,35
+Moons,rbf,200,5.0,2.2,,20,13,0.995,18
+Moons,rbf,200,10.0,2.2,,16,6,0.995,49
+Moons,rbf,200,100.0,2.2,,12,1,1.0,46
+Moons,poly,200,0.01,,3.0,90,87,0.845,18
+Moons,poly,200,0.1,,3.0,60,56,0.86,29
+Moons,poly,200,1.0,,3.0,47,44,0.915,14
+Moons,poly,200,5.0,,3.0,43,38,0.915,100
+Moons,poly,200,10.0,,3.0,43,38,0.915,100
+Moons,poly,200,100.0,,3.0,50,29,0.85,100
+Moons,poly,200,0.01,,4.0,200,197,0.505,15
+Moons,poly,200,0.1,,4.0,197,192,0.54,96
+Moons,poly,200,1.0,,4.0,184,177,0.535,100
+Moons,poly,200,5.0,,4.0,186,169,0.51,100
+Moons,poly,200,10.0,,4.0,186,151,0.54,100
+Moons,poly,200,100.0,,4.0,178,21,0.525,100
+Moons,poly,200,0.01,,5.0,74,70,0.89,17
+Moons,poly,200,0.1,,5.0,60,55,0.875,42
+Moons,poly,200,1.0,,5.0,50,45,0.905,98
+Moons,poly,200,5.0,,5.0,45,39,0.91,100
+Moons,poly,200,10.0,,5.0,44,37,0.91,100
+Moons,poly,200,100.0,,5.0,26,21,0.41,100
